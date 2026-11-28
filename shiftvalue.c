@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, temp;
+
+    printf("Enter three integers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    temp = a;
+    a = b;
+    b = c;
+    c = temp;
+
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("c = %d\n", c);
+
+    return 0;
+}
